@@ -103,6 +103,8 @@
 					<h2>Gulp.js Example</h2>
 					<p>Maybe you have some SASS in your project you want compiled</p>
 					<pre><code class="coffeescript">
+	//gulpfile.js
+	
 	gulp.task('sass', function () {
 	  return gulp.src('sass/**/*.sass')
 	  	.pipe(sass({ style: 'compressed' }))
